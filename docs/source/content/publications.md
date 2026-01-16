@@ -260,4 +260,8 @@
 
 </div>
 
+## Acknowledgments
+
+PlantSCHub acknowledges that there are numerous comprehensive resources available for plant single-cell and single-nucleus transcriptomics data. For a more complete and extensive collection of plant single-cell datasets, see the [Plant Cell Atlas](https://www.plantcellatlas.org/scea-papers.html) and other databases. The publications and datasets listed here represent a curated selection that PlantSCHub will use to develop tutorials and educational materials. These resources will be further incorporated into the Ortho Marker Gene (OMG) website to enhance gene annotation and cross-species comparative analysis for plant research communities.
+
 
