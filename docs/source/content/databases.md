@@ -25,6 +25,16 @@ A plant single-cell transcriptome database across 33 species, covering 7 tissues
 Added: May 7, 2025
 :::
 
+:::{grid-item-card} PsctH
+:link: http://jinlab.hzau.edu.cn/PsctH/
+:shadow: md
+:img-top: ../_static/images/PsctH.png
+
+Plant Single Cell Transcriptome Hub (PsctH) provides a comprehensive resource of cell markers with experimental evidence from RNA in situ hybridization or GFP reporters, covering 51 cell types across 9 tissues in 5 plant species.
+
+Added: March 5, 2026
+:::
+
 ::::
 
 
