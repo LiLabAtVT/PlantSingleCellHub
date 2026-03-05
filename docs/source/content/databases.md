@@ -3,46 +3,26 @@
 ::::{grid} 1 2 3 3
 :gutter: 2
 
-:::{grid-item-card}
+:::{grid-item-card} scPlantDB
 :link: db/scPlantDB
 :link-type: doc
+:shadow: md
+:img-top: ../_static/images/scPlantDB.png
 
-scPlantDB
+A plant-focused scRNA-seq database curating 67 datasets from 367 experiments across 17 species, covering 2,546,778 cells, 259 cell types, and 229,551 cell markers.
+
+Added: May 7, 2025
 :::
 
-:::{grid-item-card}
+:::{grid-item-card} PlantscRNAdb
 :link: db/plantscRNAdb
 :link-type: doc
+:shadow: md
+:img-top: ../_static/images/plantscRNAdb.png
 
-PlantscRNAdb
-:::
+A plant single-cell transcriptome database across 33 species, covering 7 tissues, and 58,846 marker genes for 193 cell types.
 
-:::{grid-item-card}
-:link: db/DB3
-:link-type: doc
-
-...
-:::
-
-:::{grid-item-card}
-:link: db/DB4
-:link-type: doc
-
-...
-:::
-
-:::{grid-item-card}
-:link: db/DB5
-:link-type: doc
-
-...
-:::
-
-:::{grid-item-card}
-:link: db/DB6
-:link-type: doc
-
-...
+Added: May 7, 2025
 :::
 
 ::::
@@ -55,7 +35,3 @@ PlantscRNAdb
 
 db/scPlantDB
 db/plantscRNAdb
-db/DB3
-db/DB4
-db/DB5
-db/DB6
