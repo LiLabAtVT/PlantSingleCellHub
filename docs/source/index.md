@@ -1,14 +1,30 @@
-# Home
-__PlantSCHub__ is a community-curated hub for reproducible plant single-cell analysis. It centralizes practical bioinformatics workflows and protocols for analyzing single-cell and single-nucleus data, helping researchers address plant-specific technical and analytical challenges. In addition to curated datasets and publications, PlantSCHub provides links to relevant databases, published visualization methods, and educational resources such as tutorials and YouTube videos. The platform also maintains a growing catalog of published plant single-cell datasets and supports community contributions to expand and sustain this shared resource.
+# PlantSCHub
+PlantSCHub is a community-curated hub for reproducible plant single-cell analysis. It brings together practical workflows, protocols, databases, publications, visualization resources, and training materials for plant single-cell and single-nucleus studies.
 
-<!-- 
-This is a linke to the contribution 
--->
+Plant single-cell analysis can be hard to navigate, especially for new users deciding where to begin. PlantSCHub is designed to make that first step easier: start with your data type or goal, then move to the most relevant resources.
 
-If you'd like to contribute, see the contribution note: [Contributing](content/contributing).
+::::{grid} 1 2 2 2
+:gutter: 3
 
-::::{grid} 1
-:class-container: sd-gap-2
+:::{grid-item-card} 🚀 **Start Here**
+:link: content/getting-started
+:link-type: doc
+:shadow: md
+
+New to plant single-cell analysis or new to PlantSCHub? Follow a guided path based on your background, data type, and goals.
+:::
+
+:::{grid-item-card} 🤝 **Contribute**
+:link: content/contribute
+:link-type: doc
+:shadow: md
+
+Help expand PlantSCHub by suggesting resources, improving documentation, or contributing new content.
+:::
+
+::::
+
+## Browse resources
 
 :::{card} Databases {fas}`database`
 :link: content/databases
@@ -16,7 +32,7 @@ If you'd like to contribute, see the contribution note: [Contributing](content/c
 :click-parent:
 :class-card: tab-card tab-db
 
-Go to the Databases page.
+Find plant single-cell databases, atlas portals, and marker resources.
 :::
 
 :::{card} Publications {fas}`book-open`
@@ -25,25 +41,25 @@ Go to the Databases page.
 :click-parent:
 :class-card: tab-card tab-pub
 
-Go to the Publications page.
+Explore a curated set of plant single-cell studies and datasets.
 :::
 
-:::{card} Protocols + GitHub {fab}`github`
+:::{card} Protocols {fab}`github`
 :link: content/protocols
 :link-type: doc
 :click-parent:
 :class-card: tab-card tab-pro
 
-Go to the Protocols + GitHub page.
+Browse protocols, analysis pipelines, and code resources.
 :::
 
-:::{card} YouTube Channels {fab}`youtube`
-:link: content/youtube
+:::{card} Tutorials & Videos {fab}`youtube`
+:link: content/videos
 :link-type: doc
 :click-parent:
 :class-card: tab-card tab-yt
 
-Go to the YouTube Channels page.
+Watch talks, tutorials, and guided learning materials.
 :::
 
 :::{card} Visualization {fas}`chart-line`
@@ -52,20 +68,28 @@ Go to the YouTube Channels page.
 :click-parent:
 :class-card: tab-card tab-vis
 
-Go to the Visualization page.
+Discover tools and portals for exploring plant single-cell data.
 :::
 
 ::::
 
+## New to PlantSCHub?
 
+A simple way to begin:
+
+1. Go to **[Start Here](content/getting-started)**.
+2. Choose the path that matches your data type or goal.
+3. Use the linked workflow resources, databases, publications, and tutorials as needed.
 
 ```{toctree}
 :hidden:
 :maxdepth: 2
+
+content/getting-started
 content/databases
 content/publications
 content/protocols
-content/youtube
+content/videos
 content/visualization
-content/contributing
+content/contribute
 ```
