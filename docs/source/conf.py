@@ -1,6 +1,6 @@
 import importlib.util
 assert importlib.util.find_spec("sphinx_design"), "sphinx_design not installed in RTD build"
-
+from datetime import datetime
 
 # Configuration file for the Sphinx documentation builder.
 
@@ -10,11 +10,12 @@ def setup(app):
 # -- Project information
 
 project = 'PlantSCHub'
-copyright = '2025-2026, SongLiLab'
+copyright = f'2025-{datetime.now().year}, SongLiLab'
 author = 'SongLiLab'
 
 release = '0.1'
 version = '0.1.0'
+today = datetime.now().strftime('%B %d, %Y')
 
 # -- General configuration
 
@@ -60,7 +61,7 @@ html_theme_options = {
     "titles_only": False,          # show page titles + sections
     # Branding (optional)
     "logo_only": False,
-    "display_version": False,
+    "display_version": True,
 }
 
 html_static_path = ['_static']

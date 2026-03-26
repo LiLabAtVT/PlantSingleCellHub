@@ -1,5 +1,18 @@
 # Publications
 
+This page provides a curated selection of plant single-cell and single-nucleus studies that PlantSCHub uses as representative references for methods, datasets, and tutorial development.
+
+## When should I use this page?
+
+Use this page if you want to:
+
+- see representative studies by species or tissue
+- identify recent datasets linked to published work
+- find example papers for a specific modality such as scRNA-seq, snRNA-seq, scATAC-seq, or spatial transcriptomics
+- compare how different biological questions have been addressed across plant systems
+
+If you are new to the field, this page is a good place to build biological and methodological context before choosing a pipeline.
+
 ```{needtable}
 :types: publication
 :columns: title;species;tissue;year;doi;code;sra
@@ -259,6 +272,11 @@
 ```
 
 </div>
+
+
+## Notes
+
+This list is intentionally curated rather than exhaustive. It is meant to support discovery, comparison, and future tutorial development.
 
 ## Acknowledgments
 
