@@ -13,265 +13,86 @@ Use this page if you want to:
 
 If you are new to the field, this page is a good place to build biological and methodological context before choosing a pipeline.
 
-```{needtable}
-:types: publication
-:columns: title;species;tissue;year;doi;code;sra
-:sort_by: species
-:show_parts: False
-:style: datatables
-```
+## Publications Table
 
-<div style="display:none">
+| Title | Species | Species Group | Tissue | Publication Date | Method | Study Theme | Stress / Treatment | Cell/Tissue Scope | Specialized Cell Type / Tissue | Single-cell Modality | DOI |
+|-------|---------|---|--------|------------------|--------|---|---|---|---|---|-----|
+| A single-nucleus atlas of ligular region uncovers brassinosteroid-driven cell fate transitions controlling leaf angle in maize | *Zea mays* | Crop species | Leaf / ligule | 2026-09-12 | single-nucleus transcriptomics | Hormone / signaling | Hormone/signaling: brassinosteroid | Specialized/minor cell population | Ligular region | single-nucleus transcriptomics | [10.1038/s41467-026-77393-4](https://doi.org/10.1038/s41467-026-77393-4) |
+| Tangential single-cell spatial transcriptomics resolves early ray lineage trajectory in poplar | *Populus tremula × P. alba* | Woody/perennial/horticultural | Stem (ray lineage) | 2026-09-11 | single-cell-resolution spatial transcriptomics | Development / differentiation | None / developmental baseline | Specialized/minor cell population | Ray lineage | single-cell-resolution spatial transcriptomics | [10.1093/plcell/koag275](https://academic.oup.com/plcell/advance-article-abstract/doi/10.1093/plcell/koag275/8790456) |
+| Decoding the landscape of cell-type-specific co-expressed transcription factors in soybean | *Glycine max* | Crop species | Not specified in title | 2026-09-10 | single-nucleus RNA-seq + spatial transcriptomics | Development / differentiation | None / developmental baseline | Broad/mixed cell populations |  | single-nucleus RNA-seq + spatial transcriptomics | [10.1038/s41477-026-02388-4](https://www.nature.com/articles/s41477-026-02388-4) |
+| Cryptic Fate Priming and Lineage Stabilization during Arabidopsis Anther Development | *Arabidopsis thaliana* | Arabidopsis | Flower / anther | 2026-09-05 | single-cell transcriptomics | Development / differentiation | None / developmental baseline | Organ/tissue-specific cell types | anther | single-cell transcriptomics | [10.1093/plcell/koag262](https://academic.oup.com/plcell/advance-article-abstract/doi/10.1093/plcell/koag262/8786218) |
+| Multi-organ single-cell transcriptomic atlas identifies QrIAA14 as a candidate negative regulator of adventitious root development in Quercus robur | *Quercus robur* |  | Multi-organ (adventitious root) | 2026-09-01 | single-cell transcriptomics (multi-organ atlas) |  |  |  |  |  | [10.1371/journal.pgen.1012300](https://pubmed.ncbi.nlm.nih.gov/42678990/) |
+| Single-cell transcriptomics unveils photosynthetic adaptation in submersed leaves of heterophyllous Nuphar pumila | *Nuphar pumila* |  | Leaf | 2026-08-28 | single-cell transcriptomics |  |  |  |  |  | [10.1093/plphys/kiag635](https://pubmed.ncbi.nlm.nih.gov/42660547/) |
+| A single-nucleus transcriptomic atlas reveals distinct cell identities and key regulators of cellular differentiation during early rice seed development | *Oryza sativa* | Crop species | Seed | 2026-08-17 | snRNA-seq | Development / differentiation | None / developmental baseline | Organ/tissue-specific cell types | seed | snRNA-seq | [10.1111/jipb.70373](https://pubmed.ncbi.nlm.nih.gov/42605496/) |
+| Profiling maize embryonic leaf development and discovering new genes using high-resolution spatial long-read isoform sequencing | *Zea mays* | Crop species | Leaf (embryonic) | 2026-08-17 | spatial transcriptomics + long-read isoform sequencing | Development / differentiation | None / developmental baseline | Organ/tissue-specific cell types | leaf | spatial transcriptomics + long-read isoform sequencing | [10.1038/s41477-026-02364-y](https://www.nature.com/articles/s41477-026-02364-y) |
+| Single-Nucleus Transcriptome Analysis Provides New Insights Into B Chromosome Elimination in Sorghum | *Sorghum purpureosericeum* | Crop species | Not specified in title | 2026-08-07 | snRNA-seq | Evolution / comparative biology | None / developmental baseline | Broad/mixed cell populations |  | snRNA-seq | [10.1111/pbi.70737](https://pubmed.ncbi.nlm.nih.gov/42563507/) |
+| Single-nucleus RNA sequencing reveals transcriptional response of wheat roots and leaves to salt stress | *Triticum aestivum* | Crop species | Multi-organ (root + leaf) | 2026-08-01 | snRNA-seq | Abiotic stress / adaptation | Abiotic: Salt/salinity, Heat | Organ/tissue-specific cell types | root | snRNA-seq | [10.1016/j.cj.2026.03.017](https://www.sciencedirect.com/science/article/pii/S2214514126001078) |
+| Cell-type-specific early perception of nine phytohormones revealed by single-nucleus transcriptomics in Arabidopsis | *Arabidopsis thaliana* | Arabidopsis | Not specified in title | 2026-07-31 | single-nucleus transcriptomics | Hormone / signaling | Hormone treatment: 9 phytohormones | Broad/mixed cell populations |  | single-nucleus transcriptomics | [10.1038/s41467-026-76284-y](https://doi.org/10.1038/s41467-026-76284-y) |
+| Single-Nucleus RNA Sequencing Reveals WRKY12a Regulating Secondary Cell Wall Formation During Xylem Differentiation in Rubber Tree | *Hevea brasiliensis* | Woody/perennial/horticultural | Stem / xylem | 2026-07-12 | snRNA-seq | Development / differentiation | None / developmental baseline | Specialized/minor cell population | Xylem lineage | snRNA-seq | [10.1111/pce.70733](https://pubmed.ncbi.nlm.nih.gov/42438302/) |
+| Single nuclei RNA-seq unveiling the transcriptional landscape in peony flower buds: a comparative study of three distinct flower forms | *Paeonia lactiflora* | Woody/perennial/horticultural | Flower bud | 2026-07-03 | snRNA-seq | Development / differentiation | None / developmental baseline | Organ/tissue-specific cell types | flower | snRNA-seq | [10.1093/hr/uhag271](https://academic.oup.com/hr/advance-article/doi/10.1093/hr/uhag271/8724065) |
+| Drought and salinity responses in rice resolved by single-nucleus transcriptomics | *Oryza sativa* | Crop species | Not specified in title | 2026-07-02 | single-nucleus transcriptomics | Abiotic stress / adaptation | Abiotic: Drought, Salt/salinity | Broad/mixed cell populations |  | single-nucleus transcriptomics | [10.1111/nph.71378](https://doi.org/10.1111/nph.71378) |
+| Single-cell RNA-seq uncovers landscape of tomato metabolic rewiring mediated by plant growth-promoting rhizobacteria | *Solanum lycopersicum* | Crop species | Root | 2026-06-29 | scRNA-seq + metabolomics | Development / differentiation | None / developmental baseline | Broad/mixed cell populations |  | scRNA-seq + metabolomics | [10.1016/j.plaphy.2026.111521](https://pubmed.ncbi.nlm.nih.gov/42372482/) |
+| Combining a high-caliber chromosome-level genome and root single-cell atlas resolves genetic diversity and root development in Olea europaea subsp. cuspidata | *Olea europaea subsp. cuspidata* | Woody/perennial/horticultural | Root | 2026-06-25 | scRNA-seq + genome assembly | Evolution / comparative biology | None / developmental baseline | Broad atlas / many cell types |  | scRNA-seq + genome assembly | [10.1093/jxb/erag311](https://pubmed.ncbi.nlm.nih.gov/42345073/) |
+| A transcriptional atlas of early Arabidopsis seed development suggests mechanisms for inter-tissue coordination | *Arabidopsis thaliana* | Arabidopsis | Seed | 2026-05-21 | single-nucleus RNA-seq | Development / differentiation | None / developmental baseline | Organ/tissue-specific cell types | seed | single-nucleus RNA-seq | [10.1038/s41477-026-02295-8](https://pubmed.ncbi.nlm.nih.gov/42168363/) |
+| Single-cell and spatial transcriptomics reveal the regulatory continuum from initial substrates to storage compounds during wheat grain development | *Triticum aestivum* | Crop species | Seed / grain | 2026-05-14 | single-cell + spatial transcriptomics | Development / differentiation | None / developmental baseline | Organ/tissue-specific cell types | grain | single-cell + spatial transcriptomics | [10.1016/j.plaphy.2026.111376](https://pubmed.ncbi.nlm.nih.gov/42160834/) |
+| Single-nucleus RNA sequencing reveals a spatiotemporal pattern of H2S signaling in Chinese cabbage | *Brassica rapa ssp. pekinensis* | Crop species | Not specified in title | 2026-05-12 | snRNA-seq | Hormone / signaling | Signaling treatment: H2S | Broad/mixed cell populations |  | snRNA-seq | [10.1007/s11427-025-3306-6](https://pubmed.ncbi.nlm.nih.gov/42159957/) |
+| Single-cell chromatin accessibility and cis-regulatory element analyses in plants using the scPlantReg platform | *Pennisetum glaucum (pearl millet) + 8 reanalysed plant species* | Cross-species/comparative | Method (not specified) | 2026-04-28 | scATAC-seq | Resource / method | None / developmental baseline | Broad/mixed cell populations |  | scATAC-seq | [10.1038/s41477-026-02289-6](https://pubmed.ncbi.nlm.nih.gov/42050196/) |
+| Single-cell and spatial transcriptomics in Phragmites australis reveal the association of B chromosomes with plant invasiveness | *Phragmites australis* | Other plant species | Not specified in title | 2026-04-22 | scRNA-seq + spatial transcriptomics | Evolution / comparative biology | None / developmental baseline | Broad/mixed cell populations |  | scRNA-seq + spatial transcriptomics | [10.1186/s13059-026-04079-x](https://pubmed.ncbi.nlm.nih.gov/42021342/) |
+| Time-series single-cell transcriptomics and spatial metabolomics reveal spatiotemporal tobacco leaf response to herbivory | *Nicotiana tabacum* | Crop species | Leaf | 2026-04-17 | time-series scRNA-seq + spatial metabolomics | Biotic interaction / immunity | Biotic: herbivory | Organ/tissue-specific cell types | leaf | time-series scRNA-seq + spatial metabolomics | [10.1016/j.jare.2026.04.048](https://pubmed.ncbi.nlm.nih.gov/42002027/) |
+| Single-cell and spatial transcriptomics reveals the spatiotemporal trajectory of the small peptide TAP4 in delaying postharvest fruit senescence | *Hylocereus undatus* | Woody/perennial/horticultural | Fruit | 2026-04-07 | scRNA-seq + spatial transcriptomics | Senescence / postharvest | Postharvest/senescence | Broad/mixed cell populations |  | scRNA-seq + spatial transcriptomics | [10.1016/j.xplc.2026.101846](https://www.sciencedirect.com/science/article/pii/S2590346226001549) |
+| Single-nucleus RNA-seq and ATAC-seq analyses provide molecular insights into cadmium-stress response in alfalfa roots | *Medicago sativa* | Crop species | Root | 2026-04-06 | snRNA-seq + snATAC-seq | Abiotic stress / adaptation | Abiotic: Cadmium | Organ/tissue-specific cell types | root | snRNA-seq + snATAC-seq | [10.1093/hr/uhag117](https://pubmed.ncbi.nlm.nih.gov/) |
+| Integrating single-nucleus transcriptome and GWAS reveals AhTGA1 regulating hypocotyl development in peanut | *Arachis hypogaea* | Crop species | Hypocotyl | 2026-04-02 | snRNA-seq + GWAS | Development / differentiation | None / developmental baseline | Organ/tissue-specific cell types | hypocotyl | snRNA-seq + GWAS | [10.1016/j.jia.2026.04.001](https://www.sciencedirect.com/science/article/pii/S2095311926001425) |
+| A single-cell transcriptome atlas reveals the transcriptionally earliest state in rice callus | *Oryza sativa* |  | Callus | 2026-03-25 | single-cell transcriptome atlas |  |  |  |  |  | [10.1186/s12870-026-08596-6](https://pubmed.ncbi.nlm.nih.gov/41882557/) |
+| Integrated Single-Cell and Spatial Transcriptomics Reveal Cell-Type-Specific Immune Regulatory Networks in Maize Responding to Southern Corn Rust | *Zea mays* | Crop species | Leaf | 2026-03-16 | single-cell + spatial transcriptomics | Biotic interaction / immunity | Biotic: fungal/rust pathogen | Broad/mixed cell populations |  | single-cell + spatial transcriptomics | [10.1002/advs.202512295](https://pmc.ncbi.nlm.nih.gov/articles/PMC13170197/) |
+| A single-nucleus transcriptome atlas of soybean anthers | *Glycine max* | Crop species | Flower / anther | 2026-03-12 | snRNA-seq | Development / differentiation | None / developmental baseline | Organ/tissue-specific cell types | anther | snRNA-seq | [10.1016/j.jgg.2026.03.006](https://pubmed.ncbi.nlm.nih.gov/41831752/) |
+| Single-cell and tissue transcriptomes unveil factors regulating vein initiation and development in grass leaf primordia | *Grass species (leaf primordia; NR in abstract)* |  | Leaf primordia | 2026-03-03 | single-cell + tissue transcriptomics |  |  |  |  |  | [10.1093/plcell/koag035](https://pubmed.ncbi.nlm.nih.gov/41724166/) |
+| Comprehensive insights into the development of arabidopsis trichomes by single-nucleus RNA-seq | *Arabidopsis thaliana* | Arabidopsis | Leaf / trichome | 2026-03-02 | snRNA-seq | Development / differentiation | None / developmental baseline | Specialized/minor cell population | Trichomes | snRNA-seq | [10.1186/s12870-026-08396-y](https://link.springer.com/article/10.1186/s12870-026-08396-y) |
+| Single-nucleus transcriptomic atlas reveals autophagy and hormone signaling in early grapevine tendril versus inflorescence determination | *Vitis vinifera* |  | Tendril / inflorescence | 2026-03-01 | single-nucleus transcriptomic atlas |  |  |  |  |  | [10.1111/tpj.70804](https://pubmed.ncbi.nlm.nih.gov/41846471/) |
+| Single-nucleus transcriptome profiling unveils cell-type-specific ethylene and TOR signaling in tomato | *Solanum lycopersicum* |  | Not specified in title | 2026-02-28 | single-nucleus transcriptome profiling |  |  |  |  |  | [10.1093/hr/uhag044](https://pubmed.ncbi.nlm.nih.gov/42111481/) |
+| Single-cell transcriptomics reveals cellular and genetic mechanisms of alpine adaptation in Rosa sericea | *Rosa sericea* | Woody/perennial/horticultural | Not specified in title | 2026-02-19 | single-cell transcriptomics | Abiotic stress / adaptation | Environmental adaptation | Broad/mixed cell populations |  | single-cell transcriptomics | [10.3389/fpls.2026.1733247](https://pmc.ncbi.nlm.nih.gov/articles/PMC12960625/) |
+| Single-cell transcriptomic analysis of plant quiescent center by third-generation sequencing reveals developmental trajectories | *Arabidopsis thaliana; comparative rice data* | Cross-species/comparative | Root tip (quiescent center) | 2026-02-09 | single-cell long-read RNA-seq + 10x | Development / differentiation | None / developmental baseline | Specialized/minor cell population | Quiescent center | single-cell long-read RNA-seq + 10x | [10.1186/s13059-026-03989-0](https://pubmed.ncbi.nlm.nih.gov/41664205/) |
+| A single-nucleus RNA sequencing reveals the differential fate mechanism underlying flavonoid biosynthesis of middle and inner tepals in Chimonanthus praecox | *Chimonanthus praecox* | Woody/perennial/horticultural | Flower (tepals) | 2026-02-01 | snRNA-seq | Development / differentiation | None / developmental baseline | Broad/mixed cell populations |  | snRNA-seq | [10.1016/j.ijbiomac.2026.150307](https://www.sciencedirect.com/science/article/pii/S0141813026002333) |
+| Unveiling the early defense response dynamics in grapevines against Plasmopara viticola by single-cell transcriptomics | *Vitis vinifera* |  | Leaf | 2026-01-27 | single-cell transcriptomics |  |  |  |  |  | [10.1186/s13059-025-03904-z](https://pubmed.ncbi.nlm.nih.gov/41593733/) |
+| Single-nucleus RNA-Seq reveals apical-basal polarity as a somatic embryogenesis checkpoint in Picea abies | *Picea abies* | Woody/perennial/horticultural | Somatic embryo | 2026-01-21 | snRNA-seq | Regeneration / cell fate reprogramming | None / developmental baseline | Organ/tissue-specific cell types | somatic embryogenesis | snRNA-seq | [10.1093/plphys/kiag019](https://pubmed.ncbi.nlm.nih.gov/41563965/) |
+| Transcription Profiling of Potato Leaves in Response to Heat Stress at Single-Cell Resolution | *Solanum tuberosum* | Crop species | Leaf | 2026-01-13 | single-cell transcriptomics | Abiotic stress / adaptation | Abiotic: Heat | Broad/mixed cell populations |  | single-cell transcriptomics | [10.1111/pbi.70546](https://pmc.ncbi.nlm.nih.gov/articles/PMC13110171/) |
+| Imputation integrates single-cell and spatial gene expression data to resolve transcriptional networks in barley shoot meristem development | *Hordeum vulgare* | Crop species | Shoot apex / SAM | 2026-01-07 | scRNA-seq + spatial expression integration | Development / differentiation | None / developmental baseline | Broad/mixed cell populations |  | scRNA-seq + spatial expression integration | [10.1038/s41477-025-02176-6](https://pubmed.ncbi.nlm.nih.gov/41501532/) |
+| Discrete and cell-specific hypoxic responses in Arabidopsis roots resolved by single-nuclei transcriptomics | *Arabidopsis thaliana* |  | Root | 2026-01-06 | single-nuclei transcriptomics |  |  |  |  |  | [10.1111/nph.70874](https://pubmed.ncbi.nlm.nih.gov/41492956/) |
+| Coordinated single-nucleus responses for quantitative disease resistance involve a calcium-associated switch in transcriptional noise | *Arabidopsis thaliana* | Arabidopsis | Not specified in title | 2025-12-31 | snRNA-seq + time-course RNA-seq | Biotic interaction / immunity | Biotic: pathogen/immunity | Broad/mixed cell populations |  | snRNA-seq + time-course RNA-seq | [10.1186/s13059-025-03906-x](https://pubmed.ncbi.nlm.nih.gov/41469724/) |
+| Construction of a single-cell transcriptome atlas for Pogostemon cablin embryoids reveals PcNAC048 as a dual regulator coordinating lateral root morphogenesis and patchouli alcohol biosynthesis | *Pogostemon cablin* |  | Somatic embryoids | 2025-12-29 | single-cell transcriptome atlas |  |  |  |  |  | [10.1038/s42003-025-09434-5](https://pubmed.ncbi.nlm.nih.gov/41461945/) |
+| A single-cell-resolution spatial transcriptomic atlas decodes wheat spike development and yield potential | *Triticum aestivum* | Crop species | Inflorescence (spike) | 2025-12-23 | spatial transcriptomics + snRNA-seq | Development / differentiation | None / developmental baseline | Organ/tissue-specific cell types | spike | spatial transcriptomics + snRNA-seq | [10.1016/j.molp.2025.12.020](https://pubmed.ncbi.nlm.nih.gov/41437568/) |
+| A single-nucleus and spatial transcriptomic atlas of the shoot apex reveals insights into the vegetative-to-reproductive transition in loquat | *Eriobotrya japonica* | Woody/perennial/horticultural | Shoot apex / SAM | 2025-12-18 | snRNA-seq + spatial transcriptomics | Development / differentiation | None / developmental baseline | Specialized/minor cell population | Shoot apex/meristem | snRNA-seq + spatial transcriptomics | [10.1016/j.jia.2025.12.031](https://www.sciencedirect.com/science/article/pii/S2095311925003624) |
+| Single-nucleus and spatial transcriptomics reveal the cell populations of intercalary meristems in bamboo | *Bamboo* | Woody/perennial/horticultural | Stem (intercalary meristem) | 2025-12-18 | snRNA-seq + spatial transcriptomics | Development / differentiation | None / developmental baseline | Specialized/minor cell population | Intercalary meristem | snRNA-seq + spatial transcriptomics | [10.1073/pnas.2511701122](https://pmc.ncbi.nlm.nih.gov/articles/PMC12745733/) |
+| Spatiotemporal trajectory of senescence in mesocarp cell clusters of Hylocereus undatus based on single-cell and spatial transcriptomics | *Hylocereus undatus* | Woody/perennial/horticultural | Fruit | 2025-12-12 | scRNA-seq + spatial transcriptomics | Senescence / postharvest | Postharvest/senescence | Organ/tissue-specific cell types | mesocarp | scRNA-seq + spatial transcriptomics | [10.1016/j.jplph.2025.154672](https://pubmed.ncbi.nlm.nih.gov/41435797/) |
+| Exploring the developmental mechanisms of tea plant trichomes using genomics and single-cell transcriptome sequencing | *Camellia sinensis* |  | Leaf / trichome | 2025-12-09 | single-cell transcriptome sequencing |  |  |  |  |  | [10.1093/hr/uhaf352](https://pubmed.ncbi.nlm.nih.gov/41918624/) |
+| Bacillus amyloliquefaciens orchestrates cell type-specific responses underlying drought tolerance in Arabidopsis | *Arabidopsis thaliana* | Arabidopsis | Not specified in title | 2025-12-01 | scRNA-seq | Biotic interaction / immunity | Abiotic: Drought | Broad/mixed cell populations |  | scRNA-seq | [10.1111/tpj.70612](https://pubmed.ncbi.nlm.nih.gov/41338235/) |
+| Single-cell transcriptomic datasets of the amphibious plant Water wisteria | *Hygrophila difformis* | Other plant species | Multi-organ | 2025-11-29 | single-cell transcriptomics | Resource / method | None / developmental baseline | Broad/mixed cell populations |  | single-cell transcriptomics | [10.1038/s41597-025-06341-6](https://www.nature.com/articles/s41597-025-06341-6) |
+| FX-Cell: a method for single-cell RNA sequencing on difficult-to-digest and cryopreserved plant samples | *Oryza sativa; wild rice; Zea mays; additional validation species* | Cross-species/comparative | Method (not specified) | 2025-11-27 | scRNA-seq method + new atlases | Resource / method | None / developmental baseline | Broad/mixed cell populations |  | scRNA-seq method + new atlases | [10.1038/s41592-025-02900-2](https://www.nature.com/articles/s41592-025-02900-2) |
+| Time-resolved reprogramming of single somatic cells into totipotent states during plant regeneration | *Arabidopsis thaliana* | Arabidopsis | Leaf epidermis (somatic embryogenesis) | 2025-11-26 | time-course snRNA-seq + spatial LCM-RNA-seq | Regeneration / cell fate reprogramming | None / developmental baseline | Broad/mixed cell populations |  | time-course snRNA-seq + spatial LCM-RNA-seq | [10.1016/j.cell.2025.08.031](https://pubmed.ncbi.nlm.nih.gov/40961939/) |
+| Transcriptomic landscape of Marchantia polymorpha sexual organs at single-nucleus resolution | *Marchantia polymorpha* | Other plant species | Sexual organs | 2025-11-08 | snRNA-seq | Development / differentiation | None / developmental baseline | Organ/tissue-specific cell types | sexual organs | snRNA-seq | [10.1016/j.jgg.2025.11.002](https://pubmed.ncbi.nlm.nih.gov/41213451/) |
+| Integration of single nucleus RNA-seq and bulk RNA-seq reveals gene regulatory networks for vascular connection between parasitic plants and host plants | *Phtheirospermum japonicum + Arabidopsis thaliana* | Cross-species/comparative | Haustorium / host interface | 2025-11-01 | snRNA-seq + bulk RNA-seq | Development / differentiation | None / developmental baseline | Broad/mixed cell populations |  | snRNA-seq + bulk RNA-seq | [10.1007/s10265-025-01654-4](https://pubmed.ncbi.nlm.nih.gov/40601168/) |
+| Single-cell and spatial omics reveal progressive loss of xylem developmental complexity across seed plants | *Cunninghamia lanceolata + comparative seed plants* | Cross-species/comparative | Stem / xylem | 2025-10-31 | scRNA-seq + spatial transcriptomics/proteomics/metabolomics | Evolution / comparative biology | None / developmental baseline | Organ/tissue-specific cell types | seed | scRNA-seq + spatial transcriptomics/proteomics/metabolomics | [10.1093/plcell/koaf253](https://pubmed.ncbi.nlm.nih.gov/41109686/) |
+| A unified cell atlas of vascular plants reveals cell-type foundational genes and accelerates gene discovery | *Oryza sativa; Arabidopsis thaliana; Nephrolepis auriculata; Selaginella martensii; Pinus tabulaeformis; Lycopodium japonicum* | Cross-species/comparative | Multi-organ | 2025-10-30 | cross-species scRNA-seq | Evolution / comparative biology | None / developmental baseline | Broad atlas / many cell types |  | cross-species scRNA-seq | [10.1016/j.cell.2025.07.036](https://pubmed.ncbi.nlm.nih.gov/40829588/) |
+| The role of FRUITFULL controlling cell cycle during early flower development revealed by time-series snRNA-seq experiments | *Arabidopsis thaliana* | Arabidopsis | Flower | 2025-10-27 | time-series snRNA-seq | Development / differentiation | None / developmental baseline | Organ/tissue-specific cell types | flower | time-series snRNA-seq | [10.1186/s13059-025-03831-z](https://pubmed.ncbi.nlm.nih.gov/41146337/) |
+| Cell-Type-Specific and Variety-Specific Responses to Salt Stress in Wheat Root Revealed by Single-Cell Transcriptomics | *Triticum aestivum* | Crop species | Root | 2025-10-24 | snRNA-seq | Abiotic stress / adaptation | Abiotic: Salt/salinity, Heat | Organ/tissue-specific cell types | root | snRNA-seq | [10.1111/pbi.70422](https://pubmed.ncbi.nlm.nih.gov/41133438/) |
+| Single-cell metabolome and RNA-seq multiplexing on single plant cells | *Catharanthus roseus* | Other plant species | Method (not specified) | 2025-10-24 | paired scRNA-seq + single-cell mass spectrometry | Development / differentiation | None / developmental baseline | Broad/mixed cell populations |  | paired scRNA-seq + single-cell mass spectrometry | [10.1073/pnas.2512828122](https://pubmed.ncbi.nlm.nih.gov/41134629/) |
+| Integrated single-nucleus transcriptomic and metabolomic insights into bud-to-leaf development and metabolite synthesis in tea plant | *Camellia sinensis* |  | Bud / leaf | 2025-10-11 | single-nucleus RNA-seq + metabolomics |  |  |  |  |  | [10.1093/hr/uhaf281](https://pubmed.ncbi.nlm.nih.gov/41647724/) |
+| Single-nucleus transcriptomics reveals the cellular immune responses to Candidatus Liberibacter asiaticus in rough lemon | *Citrus jambhiri (rough lemon)* |  | Not specified in title | 2025-10-01 | single-nucleus transcriptomics |  |  |  |  |  | [10.1093/hr/uhaf265](https://pubmed.ncbi.nlm.nih.gov/41631140/) |
+| Integrating 3D imaging, GWAS, and single-cell transcriptome approaches to elucidate root system architecture in Populus | *Populus* |  | Root | 2025-09-30 | single-cell transcriptomics + 3D imaging + GWAS |  |  |  |  |  | [10.1093/plphys/kiaf432](https://pubmed.ncbi.nlm.nih.gov/41004703/) |
+| Single-nucleus transcriptomics reveal the morphogenesis and artemisinin biosynthesis in Artemisia annua glandular trichomes | *Artemisia annua* |  | Leaf / trichome | 2025-09-30 | single-nucleus transcriptomics |  |  |  |  |  | [10.1038/s41467-025-63770-y](https://pubmed.ncbi.nlm.nih.gov/41028755/) |
+| Single-nucleus transcriptomics revealed auxin-driven mechanisms of wood plasticity to enhance severe drought tolerance in poplar | *Populus* |  | Stem / wood | 2025-09-26 | single-nucleus transcriptomics |  |  |  |  |  | [10.1186/s13059-025-03794-1](https://pubmed.ncbi.nlm.nih.gov/41013691/) |
+| A single-cell rice atlas integrates multi-species data to reveal cis-regulatory evolution | *Oryza sativa; Zea mays; Sorghum bicolor; Panicum miliaceum; Urochloa fusca* | Cross-species/comparative | Multi-organ | 2025-09-17 | single-cell chromatin accessibility (scATAC-seq) | Evolution / comparative biology | None / developmental baseline | Broad/mixed cell populations |  | single-cell chromatin accessibility (scATAC-seq) | [10.1038/s41477-025-02106-6](https://pubmed.ncbi.nlm.nih.gov/40962852/) |
+| Single-cell RNA sequencing reveals developmental trajectories and environmental regulation of callus formation in Arabidopsis | *Arabidopsis thaliana* | Arabidopsis | Callus | 2025-09-12 | scRNA-seq | Development / differentiation | None / developmental baseline | Organ/tissue-specific cell types | callus | scRNA-seq | [10.1007/s44154-025-00255-4](https://pubmed.ncbi.nlm.nih.gov/40938467/) |
+| Spatial and single-cell transcriptomics capture two distinct cell states in soybean defense response to Phakopsora pachyrhizi infection | *Glycine max* | Crop species | Leaf | 2025-09-11 | snRNA-seq + spatial transcriptomics | Biotic interaction / immunity | Biotic: fungal/rust pathogen | Broad/mixed cell populations |  | snRNA-seq + spatial transcriptomics | [10.3389/fpls.2025.1637176](https://pubmed.ncbi.nlm.nih.gov/41019740/) |
+| Single-nucleus multi-omics reveals the impact of drought stress on the development of soybean endosperm | *Glycine max* | Crop species | Seed / endosperm | 2025-08-29 | single-nucleus multi-omics | Abiotic stress / adaptation | Abiotic: Drought | Organ/tissue-specific cell types | endosperm | single-nucleus multi-omics | [10.1016/j.xplc.2025.101495](https://pubmed.ncbi.nlm.nih.gov/40886050/) |
+| Large-scale single-cell profiling of stem cells identifies redundant regulators of shoot development and yield trait variation | *Zea mays; Arabidopsis thaliana* | Cross-species/comparative | Shoot apex / SAM | 2025-08-26 | scRNA-seq + spatial transcriptomics validation | Development / differentiation | None / developmental baseline | Specialized/minor cell population | Stem cells | scRNA-seq + spatial transcriptomics validation | [10.1016/j.devcel.2025.07.024](https://pubmed.ncbi.nlm.nih.gov/40865519/) |
+| Single-Cell Transcriptome Atlas Unveils Transcriptional Regulation Networks of Banana Root Tips in Response to Fusarium oxysporum Infection | *Musa spp.* | Crop species | Root tip | 2025-08-22 | scRNA-seq | Biotic interaction / immunity | Biotic: Fusarium | Organ/tissue-specific cell types | root | scRNA-seq | [10.1093/hr/uhaf220](https://pubmed.ncbi.nlm.nih.gov/41220693/) |
+| Single-nucleus RNA-sequencing reveals the cellular programs driving nematode-induced giant cell formation in tomato | *Solanum lycopersicum* | Crop species | Root (giant cells) | 2025-08-22 | snRNA-seq | Biotic interaction / immunity | Biotic: nematode | Specialized/minor cell population | Nematode-induced giant cells | snRNA-seq | [10.1093/hr/uhaf223](https://pubmed.ncbi.nlm.nih.gov/) |
+| A single-cell, spatial transcriptomic atlas of the Arabidopsis life cycle | *Arabidopsis thaliana* | Arabidopsis | Multi-organ (life cycle) | 2025-08-19 | snRNA-seq + spatial transcriptomics | Development / differentiation | None / developmental baseline | Broad atlas / many cell types |  | snRNA-seq + spatial transcriptomics | [10.1038/s41477-025-02072-z](https://pubmed.ncbi.nlm.nih.gov/40830271/) |
+| snRNA-Seq Unveils Cell-Type-Specific Immune Dynamics in Arabidopsis During Pinewood Nematode Infection | *Arabidopsis thaliana* | Arabidopsis | Not specified in title | 2025-08-18 | snRNA-seq | Biotic interaction / immunity | Biotic: nematode | Broad/mixed cell populations |  | snRNA-seq | [10.1111/mpp.70136](https://pubmed.ncbi.nlm.nih.gov/40826955/) |
 
-```{publication} Single-Cell RNA Sequencing Reveals the Developmental Landscape of Wheat Roots
-:id: WHEAT_ROOT_2
-:status: published
-:category: scRNA-seq
-:doi: 10.1111/pce.15321
-:species: wheat (Triticum aestivum)
-:tissue: root tips
-:year: 2025
-:code: To be added
-:sra: To be added
-```
+## Notes
 
-```{publication} Cross-species single-nucleus analysis reveals the potential role of whole-genome duplication in the evolution of maize flower development
-:id: MAIZE_FLOWER_EVO
-:status: published
-:category: scRNA/snRNA-seq
-:doi: 10.1186/s12864-024-11186-1
-:species: maize (Zea mays L.)
-:tissue: inflorescence (ear and tassel)
-:year: 2025
-:code: To be added
-:sra: PRJCA023192 (NGDC Bioproject)
-```
-
-```{publication} Single-nucleus transcriptomics revealed auxin-driven mechanisms of wood plasticity to enhance severe drought tolerance in poplar
-:id: POPLAR_DROUGHT_SN
-:status: published
-:category: snRNA-seq
-:doi: 10.1186/s13059-025-03794-1
-:species: poplar (Populus tremula × alba)
-:tissue: mature stem
-:year: 2025
-:code: https://github.com/DanielCondeLab/Hybrid_poplar_drought_singlecell :contentReference[oaicite:0]{index=0}
-:sra: GSE283835 (NCBI GEO) :contentReference[oaicite:1]{index=1}
-```
-
-```{publication} An Arabidopsis Single-Nucleus Atlas Decodes Leaf Senescence and Nutrient Allocation
-:id: ARABIDOPSIS_LEAF_SN
-:status: published
-:category: snRNA-seq
-:doi: 10.1016/j.cell.2025.03.024
-:species: Arabidopsis thaliana
-:tissue: multiple organs (leaf senescence focus)
-:year: 2025
-:code: To be added
-:sra: CNP0002614 (CNGBdb Project for raw snRNA-seq data):contentReference[oaicite:0]{index=0}
-```
-```{publication} Drought recovery in plants triggers a cell-state-specific immune activation
-:id: DROUGHT_RECOVERY_PLANTS
-:status: published
-:category: snRNA-seq / spatial transcriptomics
-:doi: 10.1038/s41467-025-63467-2
-:species: Arabidopsis thaliana
-:tissue: leaf
-:year: 2025
-:code: To be added
-:sra: GSE220277 (snRNA-seq), GSE303744 (MERFISH), GSE220276 (bulk RNA-seq) — see GEO accessions related to the study :contentReference[oaicite:0]{index=0}
-```
-
-```{publication} A Single-Cell, Spatial Transcriptomic Atlas of the Arabidopsis Life Cycle
-:id: ARABIDOPSIS_LIFE_CYCLE_ATLAS
-:status: published
-:category: snRNA-seq + spatial transcriptomics
-:doi: 10.1038/s41477-025-02072-z
-:species: Arabidopsis thaliana
-:tissue: whole plant (multiple organs across life cycle)
-:year: 2025
-:code: To be added
-:sra: To be added
-```
-
-```{publication} Development of an Inducible DNA Barcoding System to Understand Lineage Changes in Arabidopsis Regeneration
-:id: ARABIDOPSIS_BARCODE_REGEN
-:status: published
-:category: lineage tracing / DNA barcoding
-:doi: 10.1016/j.devcel.2024.10.023
-:species: Arabidopsis thaliana
-:tissue: somatic tissues (regeneration context)
-:year: 2025
-:code: To be added
-:sra: To be added
-```
-
-```{publication} The dynamic and diverse nature of parenchyma cells in the Arabidopsis root during secondary growth
-:id: ARABIDOPSIS_PARANCHYMA_SECONDARY
-:status: published
-:category: scRNA-seq
-:doi: 10.1038/s41477-025-01938-6
-:species: Arabidopsis thaliana
-:tissue: mature root undergoing secondary growth
-:year: 2025
-:code: To be added
-:sra: To be added
-```
-
-```{publication} The Genetic Architecture of Cell Type-Specific Cis Regulation in Maize
-:id: MAIZE_CIS_REG_ARCH
-:status: published
-:category: scATAC-seq + single-cell chromatin accessibility / regulatory genomics
-:doi: 10.1126/science.ads6601
-:species: maize (Zea mays)
-:tissue: multiple tissues / nuclei
-:year: 2025
-:code: To be added
-:sra: To be added
-```
-
-```{publication} The establishment of the anther somatic niche with single-cell sequencing
-:id: MAIZE_ANTHER_SOMATIC_NICHE
-:status: published
-:category: scRNA-seq
-:doi: 10.1016/j.ydbio.2024.11.004
-:species: maize (Zea mays)
-:tissue: anther (somatic niche)
-:year: 2025
-:code: To be added
-:sra: To be added
-```
-```{publication} A Single-Nuclei Transcriptome Census of the Arabidopsis Maturing Root Identifies That MYB67 Controls Phellem Cell Maturation
-:id: ARABIDOPSIS_ROOT_PHELLEM_SN
-:status: published
-:category: snRNA-seq
-:doi: 10.1016/j.devcel.2024.12.025
-:species: Arabidopsis thaliana
-:tissue: maturing root (phellem / periderm)
-:year: 2025
-:code: To be added
-:sra: To be added
-```
-
-```{publication} A Rare PRIMER Cell State in Plant Immunity
-:id: ARABIDOPSIS_PRIMER_IMMUNITY
-:status: published
-:category: snRNA-seq
-:doi: 10.1038/s41586-024-08383-z
-:species: Arabidopsis thaliana
-:tissue: leaf (immune response)
-:year: 2025
-:code: To be added
-:sra: To be added
-```
-
-```{publication} The Single-Cell Transcriptome Program of Nodule Development Cellular Lineages in Medicago truncatula
-:id: MEDICAGO_NODULE_SC
-:status: published
-:category: scRNA-seq
-:doi: 10.1016/j.celrep.2024.113747
-:species: Medicago truncatula
-:tissue: root nodule
-:year: 2024
-:code: To be added
-:sra: To be added
-```
-```{publication} Investigating Biological Nitrogen Fixation via Single-Cell Transcriptomics
-:id: BNF_SINGLE_CELL_REVIEW
-:status: published
-:category: scRNA/snRNA-seq (review)
-:doi: 10.1093/jxb/erae454
-:species: legume species (multiple)
-:tissue: root / nodule
-:year: 2025
-:code: N/A
-:sra: N/A
-```
-
-```{publication} Deep Tissue Profiling of Populus Stem at Single Nucleus Level Reveals Uncharacterized Cell Types and Cell-Specific Gene Regulatory Networks
-:id: POPULUS_STEM_SN
-:status: published
-:category: snRNA-seq
-:doi: 10.1186/s13059-025-03728-x
-:species: poplar (Populus)
-:tissue: stem
-:year: 2025
-:code: To be added
-:sra: To be added
-```
-
-```{publication} Single-Cell Transcriptomes Reveal Spatiotemporal Heat Stress Response in Maize Roots
-:id: MAIZE_ROOT_HEAT_SC
-:status: published
-:category: scRNA-seq
-:doi: 10.1038/s41467-024-55485-3
-:species: maize (Zea mays)
-:tissue: root
-:year: 2025
-:code: To be added
-:sra: To be added
-```
-
-```{publication} Single-Cell and Spatial Transcriptomics Reveals a Stereoscopic Response of Rice Leaf Cells to Magnaporthe oryzae Infection
-:id: RICE_LEAF_BLAST_SC_SPATIAL
-:status: published
-:category: scRNA-seq + spatial transcriptomics
-:doi: 10.1002/advs.202416846
-:species: rice (Oryza sativa)
-:tissue: leaf
-:year: 2025
-:code: To be added
-:sra: To be added
-```
-```{publication} Multiplexed Transcriptomic Analyses of the Plant Embryonic Hourglass
-:id: PLANT_EMBRYO_HOURGLASS
-:status: published
-:category: scRNA-seq / spatial / multiplexed transcriptomics
-:doi: 10.1038/s41467-024-55803-9
-:species: plant species (multiple)
-:tissue: embryo
-:year: 2025
-:code: To be added
-:sra: To be added
-```
-
-```{publication} Single-Cell Transcriptomic Profiling of Maize Cell Heterogeneity and Systemic Immune Responses against Puccinia polysora
-:id: MAIZE_RUST_IMMUNITY_SC
-:status: published
-:category: scRNA-seq
-:doi: 10.1111/pbi.14519
-:species: maize (Zea mays)
-:tissue: leaf
-:year: 2025
-:code: To be added
-:sra: To be added
-```
-
-```{publication} A Spatially Resolved Multi-Omic Single-Cell Atlas of Soybean Development
-:id: SOYBEAN_DEV_MULTIOMIC_ATLAS
-:status: published
-:category: scRNA-seq + spatial transcriptomics + multi-omics
-:doi: 10.1016/j.cell.2024.10.050
-:species: soybean (Glycine max)
-:tissue: multiple organs across development
-:year: 2025
-:code: To be added
-:sra: To be added
-```
-
-```{publication} Single-Cell Transcriptomics Reveal How Root Tissues Adapt to Soil Stress
-:id: ROOT_SOIL_STRESS_SC
-:status: published
-:category: scRNA-seq
-:doi: 10.1038/s41586-025-08941-z
-:species: Arabidopsis thaliana
-:tissue: root
-:year: 2025
-:code: To be added
-:sra: To be added
-```
-
-</div>
+This list is intentionally curated rather than exhaustive. It is meant to support discovery, comparison, and future tutorial development.
 
 
 ## Notes
