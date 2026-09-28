@@ -1,4 +1,15 @@
-# Youtube Channels
+# Tutorials & Videos
+
+This page collects talks, tutorials, and video resources that can help new users build context before diving into databases, protocols, or publications.
+
+## When should I use this page?
+
+Use this page if you want to:
+
+- learn the basics before choosing tools
+- hear broader overviews of plant single-cell or spatial omics
+- watch tutorials on common analysis topics such as trajectory inference
+- find teaching materials to support onboarding or lab training
 
 ::::{grid} 1 2 3 3
 :gutter: 2
@@ -34,3 +45,11 @@
 :::
 
 ::::
+
+## Suggested starting order for new users
+
+If you are new, a good sequence is:
+
+1. Watch one broad overview talk on plant single-cell or spatial omics.
+2. Watch one method-focused tutorial relevant to your immediate task.
+3. Move to [Publications](publications) or [Protocols](protocols) for deeper follow-up.
