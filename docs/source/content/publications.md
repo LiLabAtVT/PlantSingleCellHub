@@ -71,7 +71,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Development / differentiation
 :stress_treatment: None / developmental baseline
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: single-nucleus RNA-seq + spatial transcriptomics
 ```
 
@@ -98,14 +98,14 @@ If you are new to the field, this page is a good place to build biological and m
 :category: single-cell transcriptomics (multi-organ atlas)
 :doi: 10.1371/journal.pgen.1012300
 :species: Quercus robur
-:species_group: N/A
+:species_group: 
 :tissue: Multi-organ (adventitious root)
 :year: 2026
 :method: single-cell transcriptomics (multi-organ atlas)
-:study_theme: N/A
-:stress_treatment: N/A
-:cell_tissue_scope: N/A
-:specialized_cell_type: N/A
+:study_theme: 
+:stress_treatment: 
+:cell_tissue_scope: 
+:specialized_cell_type: 
 :modality: 
 ```
 
@@ -115,14 +115,14 @@ If you are new to the field, this page is a good place to build biological and m
 :category: single-cell transcriptomics
 :doi: 10.1093/plphys/kiag635
 :species: Nuphar pumila
-:species_group: N/A
+:species_group: 
 :tissue: Leaf
 :year: 2026
 :method: single-cell transcriptomics
-:study_theme: N/A
-:stress_treatment: N/A
-:cell_tissue_scope: N/A
-:specialized_cell_type: N/A
+:study_theme: 
+:stress_treatment: 
+:cell_tissue_scope: 
+:specialized_cell_type: 
 :modality: 
 ```
 
@@ -173,7 +173,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Evolution / comparative biology
 :stress_treatment: None / developmental baseline
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: snRNA-seq
 ```
 
@@ -207,7 +207,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Hormone / signaling
 :stress_treatment: Hormone treatment: 9 phytohormones
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: single-nucleus transcriptomics
 ```
 
@@ -258,7 +258,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Abiotic stress / adaptation
 :stress_treatment: Abiotic: Drought, Salt/salinity
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: single-nucleus transcriptomics
 ```
 
@@ -275,7 +275,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Development / differentiation
 :stress_treatment: None / developmental baseline
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: scRNA-seq + metabolomics
 ```
 
@@ -292,7 +292,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Evolution / comparative biology
 :stress_treatment: None / developmental baseline
 :cell_tissue_scope: Broad atlas / many cell types
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: scRNA-seq + genome assembly
 ```
 
@@ -343,7 +343,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Hormone / signaling
 :stress_treatment: Signaling treatment: H2S
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: snRNA-seq
 ```
 
@@ -360,7 +360,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Resource / method
 :stress_treatment: None / developmental baseline
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: scATAC-seq
 ```
 
@@ -377,7 +377,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Evolution / comparative biology
 :stress_treatment: None / developmental baseline
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: scRNA-seq + spatial transcriptomics
 ```
 
@@ -411,7 +411,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Senescence / postharvest
 :stress_treatment: Postharvest/senescence
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: scRNA-seq + spatial transcriptomics
 ```
 
@@ -455,14 +455,14 @@ If you are new to the field, this page is a good place to build biological and m
 :category: single-cell transcriptome atlas
 :doi: 10.1186/s12870-026-08596-6
 :species: Oryza sativa
-:species_group: N/A
+:species_group: 
 :tissue: Callus
 :year: 2026
 :method: single-cell transcriptome atlas
-:study_theme: N/A
-:stress_treatment: N/A
-:cell_tissue_scope: N/A
-:specialized_cell_type: N/A
+:study_theme: 
+:stress_treatment: 
+:cell_tissue_scope: 
+:specialized_cell_type: 
 :modality: 
 ```
 
@@ -479,7 +479,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Biotic interaction / immunity
 :stress_treatment: Biotic: fungal/rust pathogen
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: single-cell + spatial transcriptomics
 ```
 
@@ -506,14 +506,14 @@ If you are new to the field, this page is a good place to build biological and m
 :category: single-cell + tissue transcriptomics
 :doi: 10.1093/plcell/koag035
 :species: Grass species (leaf primordia; NR in abstract)
-:species_group: N/A
+:species_group: 
 :tissue: Leaf primordia
 :year: 2026
 :method: single-cell + tissue transcriptomics
-:study_theme: N/A
-:stress_treatment: N/A
-:cell_tissue_scope: N/A
-:specialized_cell_type: N/A
+:study_theme: 
+:stress_treatment: 
+:cell_tissue_scope: 
+:specialized_cell_type: 
 :modality: 
 ```
 
@@ -540,14 +540,14 @@ If you are new to the field, this page is a good place to build biological and m
 :category: single-nucleus transcriptomic atlas
 :doi: 10.1111/tpj.70804
 :species: Vitis vinifera
-:species_group: N/A
+:species_group: 
 :tissue: Tendril / inflorescence
 :year: 2026
 :method: single-nucleus transcriptomic atlas
-:study_theme: N/A
-:stress_treatment: N/A
-:cell_tissue_scope: N/A
-:specialized_cell_type: N/A
+:study_theme: 
+:stress_treatment: 
+:cell_tissue_scope: 
+:specialized_cell_type: 
 :modality: 
 ```
 
@@ -557,14 +557,14 @@ If you are new to the field, this page is a good place to build biological and m
 :category: single-nucleus transcriptome profiling
 :doi: 10.1093/hr/uhag044
 :species: Solanum lycopersicum
-:species_group: N/A
+:species_group: 
 :tissue: Not specified in title
 :year: 2026
 :method: single-nucleus transcriptome profiling
-:study_theme: N/A
-:stress_treatment: N/A
-:cell_tissue_scope: N/A
-:specialized_cell_type: N/A
+:study_theme: 
+:stress_treatment: 
+:cell_tissue_scope: 
+:specialized_cell_type: 
 :modality: 
 ```
 
@@ -581,7 +581,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Abiotic stress / adaptation
 :stress_treatment: Environmental adaptation
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: single-cell transcriptomics
 ```
 
@@ -615,7 +615,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Development / differentiation
 :stress_treatment: None / developmental baseline
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: snRNA-seq
 ```
 
@@ -625,14 +625,14 @@ If you are new to the field, this page is a good place to build biological and m
 :category: single-cell transcriptomics
 :doi: 10.1186/s13059-025-03904-z
 :species: Vitis vinifera
-:species_group: N/A
+:species_group: 
 :tissue: Leaf
 :year: 2026
 :method: single-cell transcriptomics
-:study_theme: N/A
-:stress_treatment: N/A
-:cell_tissue_scope: N/A
-:specialized_cell_type: N/A
+:study_theme: 
+:stress_treatment: 
+:cell_tissue_scope: 
+:specialized_cell_type: 
 :modality: 
 ```
 
@@ -666,7 +666,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Abiotic stress / adaptation
 :stress_treatment: Abiotic: Heat
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: single-cell transcriptomics
 ```
 
@@ -683,7 +683,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Development / differentiation
 :stress_treatment: None / developmental baseline
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: scRNA-seq + spatial expression integration
 ```
 
@@ -693,14 +693,14 @@ If you are new to the field, this page is a good place to build biological and m
 :category: single-nuclei transcriptomics
 :doi: 10.1111/nph.70874
 :species: Arabidopsis thaliana
-:species_group: N/A
+:species_group: 
 :tissue: Root
 :year: 2026
 :method: single-nuclei transcriptomics
-:study_theme: N/A
-:stress_treatment: N/A
-:cell_tissue_scope: N/A
-:specialized_cell_type: N/A
+:study_theme: 
+:stress_treatment: 
+:cell_tissue_scope: 
+:specialized_cell_type: 
 :modality: 
 ```
 
@@ -717,7 +717,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Biotic interaction / immunity
 :stress_treatment: Biotic: pathogen/immunity
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: snRNA-seq + time-course RNA-seq
 ```
 
@@ -727,14 +727,14 @@ If you are new to the field, this page is a good place to build biological and m
 :category: single-cell transcriptome atlas
 :doi: 10.1038/s42003-025-09434-5
 :species: Pogostemon cablin
-:species_group: N/A
+:species_group: 
 :tissue: Somatic embryoids
 :year: 2025
 :method: single-cell transcriptome atlas
-:study_theme: N/A
-:stress_treatment: N/A
-:cell_tissue_scope: N/A
-:specialized_cell_type: N/A
+:study_theme: 
+:stress_treatment: 
+:cell_tissue_scope: 
+:specialized_cell_type: 
 :modality: 
 ```
 
@@ -812,14 +812,14 @@ If you are new to the field, this page is a good place to build biological and m
 :category: single-cell transcriptome sequencing
 :doi: 10.1093/hr/uhaf352
 :species: Camellia sinensis
-:species_group: N/A
+:species_group: 
 :tissue: Leaf / trichome
 :year: 2025
 :method: single-cell transcriptome sequencing
-:study_theme: N/A
-:stress_treatment: N/A
-:cell_tissue_scope: N/A
-:specialized_cell_type: N/A
+:study_theme: 
+:stress_treatment: 
+:cell_tissue_scope: 
+:specialized_cell_type: 
 :modality: 
 ```
 
@@ -836,7 +836,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Biotic interaction / immunity
 :stress_treatment: Abiotic: Drought
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: scRNA-seq
 ```
 
@@ -853,7 +853,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Resource / method
 :stress_treatment: None / developmental baseline
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: single-cell transcriptomics
 ```
 
@@ -870,7 +870,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Resource / method
 :stress_treatment: None / developmental baseline
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: scRNA-seq method + new atlases
 ```
 
@@ -887,7 +887,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Regeneration / cell fate reprogramming
 :stress_treatment: None / developmental baseline
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: time-course snRNA-seq + spatial LCM-RNA-seq
 ```
 
@@ -921,7 +921,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Development / differentiation
 :stress_treatment: None / developmental baseline
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: snRNA-seq + bulk RNA-seq
 ```
 
@@ -955,7 +955,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Evolution / comparative biology
 :stress_treatment: None / developmental baseline
 :cell_tissue_scope: Broad atlas / many cell types
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: cross-species scRNA-seq
 ```
 
@@ -1006,7 +1006,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Development / differentiation
 :stress_treatment: None / developmental baseline
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: paired scRNA-seq + single-cell mass spectrometry
 ```
 
@@ -1016,14 +1016,14 @@ If you are new to the field, this page is a good place to build biological and m
 :category: single-nucleus RNA-seq + metabolomics
 :doi: 10.1093/hr/uhaf281
 :species: Camellia sinensis
-:species_group: N/A
+:species_group: 
 :tissue: Bud / leaf
 :year: 2025
 :method: single-nucleus RNA-seq + metabolomics
-:study_theme: N/A
-:stress_treatment: N/A
-:cell_tissue_scope: N/A
-:specialized_cell_type: N/A
+:study_theme: 
+:stress_treatment: 
+:cell_tissue_scope: 
+:specialized_cell_type: 
 :modality: 
 ```
 
@@ -1033,14 +1033,14 @@ If you are new to the field, this page is a good place to build biological and m
 :category: single-nucleus transcriptomics
 :doi: 10.1093/hr/uhaf265
 :species: Citrus jambhiri (rough lemon)
-:species_group: N/A
+:species_group: 
 :tissue: Not specified in title
 :year: 2025
 :method: single-nucleus transcriptomics
-:study_theme: N/A
-:stress_treatment: N/A
-:cell_tissue_scope: N/A
-:specialized_cell_type: N/A
+:study_theme: 
+:stress_treatment: 
+:cell_tissue_scope: 
+:specialized_cell_type: 
 :modality: 
 ```
 
@@ -1050,14 +1050,14 @@ If you are new to the field, this page is a good place to build biological and m
 :category: single-cell transcriptomics + 3D imaging + GWAS
 :doi: 10.1093/plphys/kiaf432
 :species: Populus
-:species_group: N/A
+:species_group: 
 :tissue: Root
 :year: 2025
 :method: single-cell transcriptomics + 3D imaging + GWAS
-:study_theme: N/A
-:stress_treatment: N/A
-:cell_tissue_scope: N/A
-:specialized_cell_type: N/A
+:study_theme: 
+:stress_treatment: 
+:cell_tissue_scope: 
+:specialized_cell_type: 
 :modality: 
 ```
 
@@ -1067,14 +1067,14 @@ If you are new to the field, this page is a good place to build biological and m
 :category: single-nucleus transcriptomics
 :doi: 10.1038/s41467-025-63770-y
 :species: Artemisia annua
-:species_group: N/A
+:species_group: 
 :tissue: Leaf / trichome
 :year: 2025
 :method: single-nucleus transcriptomics
-:study_theme: N/A
-:stress_treatment: N/A
-:cell_tissue_scope: N/A
-:specialized_cell_type: N/A
+:study_theme: 
+:stress_treatment: 
+:cell_tissue_scope: 
+:specialized_cell_type: 
 :modality: 
 ```
 
@@ -1084,14 +1084,14 @@ If you are new to the field, this page is a good place to build biological and m
 :category: single-nucleus transcriptomics
 :doi: 10.1186/s13059-025-03794-1
 :species: Populus
-:species_group: N/A
+:species_group: 
 :tissue: Stem / wood
 :year: 2025
 :method: single-nucleus transcriptomics
-:study_theme: N/A
-:stress_treatment: N/A
-:cell_tissue_scope: N/A
-:specialized_cell_type: N/A
+:study_theme: 
+:stress_treatment: 
+:cell_tissue_scope: 
+:specialized_cell_type: 
 :modality: 
 ```
 
@@ -1108,7 +1108,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Evolution / comparative biology
 :stress_treatment: None / developmental baseline
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: single-cell chromatin accessibility (scATAC-seq)
 ```
 
@@ -1142,7 +1142,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Biotic interaction / immunity
 :stress_treatment: Biotic: fungal/rust pathogen
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: snRNA-seq + spatial transcriptomics
 ```
 
@@ -1227,7 +1227,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Development / differentiation
 :stress_treatment: None / developmental baseline
 :cell_tissue_scope: Broad atlas / many cell types
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: snRNA-seq + spatial transcriptomics
 ```
 
@@ -1244,7 +1244,7 @@ If you are new to the field, this page is a good place to build biological and m
 :study_theme: Biotic interaction / immunity
 :stress_treatment: Biotic: nematode
 :cell_tissue_scope: Broad/mixed cell populations
-:specialized_cell_type: N/A
+:specialized_cell_type: 
 :modality: snRNA-seq
 ```
 

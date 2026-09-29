@@ -24,5 +24,18 @@ table.dataTable td:nth-child(1),
 table.dataTable th:nth-child(1) {
   white-space: normal !important;
   word-break: break-word;
-  min-width: 300px; 
+  min-width: 300px;
+}
+
+/* show scientific species names in italic (Species is the 2nd column) */
+table.dataTable td:nth-child(2) {
+  font-style: italic;
+}
+
+/* Species column sizing*/
+table.dataTable td:nth-child(2),
+table.dataTable th:nth-child(2) {
+  white-space: normal !important;
+  word-break: break-word;
+  min-width: 200px;
 }
