@@ -74,13 +74,21 @@ needs_types = [
     dict(directive="publication", title="Publication", prefix="PUB", color="#BFD8D2", style="node"),
 ]
 
-needs_extra_options = ["category", 
-                       "doi", 
-                       "year", 
-                       "code", 
-                       "sra", 
+needs_extra_options = ["category",
+                       "doi",
+                       "year",
+                       "code",
+                       "sra",
                        "species",
+                       "species_group",
                        "tissue",
+                       "method",
+                       "study_theme",
+                       "stress_treatment",
+                       "cell_tissue_scope",
+                       "specialized_cell_type",
+                       "modality",
+                       "source_url",
 ]
 
 needs_default_layout = "clean"
